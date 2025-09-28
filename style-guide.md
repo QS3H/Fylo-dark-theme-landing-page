@@ -54,17 +54,6 @@ For the social icons, you can use a font icon library. Some suggestions can be f
 
 > 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma.
 
-Features
-Team
-Sign In
-
-All your files in one secure location, accessible anywhere.
-
-Fylo stores all your most important files in one secure location. Access them wherever
-you need, share and collaborate with friends family, and co-workers.
-
-Get Started
-
 Access your files, anywhere
 
 The ability to use a smartphone, tablet, or computer to access your account means your
