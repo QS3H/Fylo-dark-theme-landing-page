@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en" class="dark scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <!-- displays site properly based on user's device -->
@@ -21,15 +21,17 @@
   <body class="font-opensans dark:bg-Navy850 dark:text-white">
     <header class="container px-6 mt-10 mx-auto h-40 text-center md:h-20">
       <div
-        class="bg-logo-light-mode dark:bg-logo-dark-mode h-20 mx-auto w-48 bg-no-repeat md:absolute md:mx-0 left-10 top-10"
+        class="bg-logo-light-mode dark:bg-logo-dark-mode h-10 w-40 md:h-9 md:w-44 lg:h-20 lg:w-48 mx-auto bg-no-repeat bg-contain md:absolute md:mx-0 left-10 top-10"
       ></div>
       <div
         class="flex justify-center items-center space-x-4 md:absolute md:space-x-10 right-10 top-12"
       >
-        <a href="#features" class="hover:text-accentTeal duration-200"
+        <a href="#features-section" class="hover:text-accentTeal duration-200"
           >Features</a
         >
-        <a href="#testimonials" class="hover:text-accentTeal duration-200"
+        <a
+          href="#testimonials-section"
+          class="hover:text-accentTeal duration-200"
           >Testimonials</a
         >
         <a href="#" class="hover:text-accentTeal duration-200">Sign in</a>
@@ -222,7 +224,7 @@
                 class="w-10 h-10 rounded-full"
               />
               <div>
-                <h5 class="text-sm font-semibold">Satish Patel</h5>
+                <h3 class="text-sm font-semibold">Satish Patel</h3>
                 <p class="text-xs font-extralight">Founder & CEO. Huddle</p>
               </div>
             </div>
@@ -243,7 +245,7 @@
                 class="w-10 h-10 rounded-full"
               />
               <div>
-                <h5 class="text-sm font-semibold">Bruce McKenzie</h5>
+                <h3 class="text-sm font-semibold">Bruce McKenzie</h3>
                 <p class="text-xs font-extralight">Founder & CEO. Huddle</p>
               </div>
             </div>
@@ -264,7 +266,7 @@
                 class="w-10 h-10 rounded-full"
               />
               <div>
-                <h5 class="text-sm font-semibold">Eva Boyd</h5>
+                <h3 class="text-sm font-semibold">Eva Boyd</h3>
                 <p class="text-xs font-extralight">Founder & CEO. Huddle</p>
               </div>
             </div>
@@ -272,5 +274,134 @@
         </div>
       </div>
     </section>
+
+    <section
+      id="early-access-section"
+      class="px-6 relative dark:bg-Navy900 md:px-0"
+    >
+      <div
+        class="relative max-w-4xl mx-auto -top-40 px-6 p-10 space-y-6 text-center rounded-lg bg-gray-200 dark:bg-Navy850 md:px-16"
+      >
+        <h4 class="font-bold text-2xl">Get early access today</h4>
+        <p class="text-sm">
+          It only takes a minute to sign up and our free starter tier is
+          extremely generous. If you have any questions, our support team would
+          be happy to help you.
+        </p>
+        <div
+          class="flex items-start flex-col space-y-6 md:space-y-0 md:flex-row md:space-x-6"
+        >
+          <div class="w-full md:flex-1">
+            <input
+              type="text"
+              class="px-10 rounded-full w-full py-3 focus:outline-non"
+              placeholder="email@example.com"
+            />
+          </div>
+          <button
+            class="p-3 px-6 font-bold w-full rounded-full bg-accentTeal md:w-56 hover:scale-105 duration-200 hover:bg-accentCyan"
+          >
+            Get Started For Free
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-gray-300 text-black dark:bg-Navy950 dark:text-white">
+      <div class="container mx-auto pt-12 px-5 pb-10">
+        <div
+          class="bg-logo-light-mode dark:bg-logo-dark-mode h-8 w-40 md:h-9 md:w-44 lg:h-10 lg:w-48 bg-no-repeat bg-contain"
+        ></div>
+
+        <div
+          class="mt-10 flex flex-col space-y-24 md:flex-row md:items-start md:space-y-0 md:space-x-20"
+        >
+          <div class="md:w-1/2 md:max-w-xl">
+            <div class="flex items-start space-x-3">
+              <div class="w-8 pt-1 md:pt-0">
+                <img
+                  src="images/icon-location.svg"
+                  alt=""
+                  class="filter invert dark:invert-0"
+                />
+              </div>
+              <p class="max-w-md">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+
+          <div class="space-y-6">
+            <div class="flex items-center space-x-3">
+              <div class="w-7">
+                <img
+                  src="images/icon-phone.svg"
+                  alt=""
+                  class="filter invert dark:invert-0"
+                />
+              </div>
+              <div>+1-543-123-4567</div>
+            </div>
+            <div class="flex items-center space-x-3">
+              <div class="w-7">
+                <img
+                  src="images/icon-email.svg"
+                  alt=""
+                  class="filter invert dark:invert-0"
+                />
+              </div>
+              <div>example@fylo.com</div>
+            </div>
+          </div>
+
+          <div
+            class="flex flex-col space-y-10 text-xl md:text-base md:space-x-20 md:space-y-0 md:flex-row"
+          >
+            <div class="flex flex-col space-y-3">
+              <a href="#" class="hover:text-accentTeal duration-200"
+                >About Us</a
+              >
+              <a href="#" class="hover:text-accentTeal duration-200">Jobs</a>
+              <a href="#" class="hover:text-accentTeal duration-200">Press</a>
+              <a href="#" class="hover:text-accentTeal duration-200">Blog</a>
+            </div>
+            <div class="flex flex-col space-y-3">
+              <a href="#" class="hover:text-accentTeal duration-200"
+                >Contact Us</a
+              >
+              <a href="#" class="hover:text-accentTeal duration-200">Terms</a>
+              <a href="#" class="hover:text-accentTeal duration-200">Privacy</a>
+            </div>
+          </div>
+
+          <div
+            class="flex justify-center md:justify-start pb-10 space-x-3 md:items-start"
+          >
+            <a href="#" aria-label="Facebook">
+              <img
+                src="images/facebook.svg"
+                alt=""
+                class="w-10 h-10 p-2 rounded-full border border-black dark:border-white filter invert dark:invert-0 ficon"
+              />
+            </a>
+            <a href="#" aria-label="Twitter">
+              <img
+                src="images/twitter.svg"
+                alt=""
+                class="w-10 h-10 p-2 rounded-full border border-black dark:border-white filter invert dark:invert-0 ficon"
+              />
+            </a>
+            <a href="#" aria-label="Instagram">
+              <img
+                src="images/instagram.svg"
+                alt=""
+                class="w-10 h-10 p-2 rounded-full border border-black dark:border-white filter invert dark:invert-0 ficon"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
