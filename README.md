@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [My Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/fylo-darklight-theme-landing-page-with-tailwindcss-kqiEx7g6xP)
+- Live Site URL: [Fylo Landing Page](https://qs3h.github.io/Fylo-dark-theme-landing-page/)
 
 ## My process
 
@@ -326,7 +326,5 @@ All animations gracefully degrade in older browsers.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@QS3H](https://www.frontendmentor.io/profile/QS3H)
 
